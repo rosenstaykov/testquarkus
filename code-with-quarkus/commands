@@ -1,0 +1,9 @@
+curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@quarkusio && curl -Ls https://sh.jbang.dev | bash -s - trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/
+
+chmod +x mvnw && ./mvnw clean compile quarkus:dev
+
+
+
+java -jar code-with-quarkus-dev.jar
+
+yum install -y java-11
